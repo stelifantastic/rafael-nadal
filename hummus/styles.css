@@ -1,0 +1,54 @@
+body {
+  background: #dda15e;
+}
+
+h1 {
+  text-align: center;
+  color: #fefae0;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px 0 #582709;
+  font-family: monospace;
+  font-size: 42px;
+  font-weight: lighter;
+  padding-top: 5px;
+}
+
+.intro,
+.recipe {
+  color: sienna;
+  background: #fefae0;
+  padding: 5px 15px;
+  border: 2px solid #2f1403;
+  border-radius: 20px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.intro {
+  margin-top: 28px;
+  margin-bottom: 14px;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+}
+
+.back-to-main {
+  width: 180px;
+  margin: 28px auto 0;
+}
+
+.back-to-main a {
+  display: block;
+  box-sizing: border-box;
+  padding: 5px 15px;
+  border: 2px solid #2f1403;
+  border-radius: 20px;
+  background: #fefae0;
+  color: sienna;
+  font-family: monospace;
+  text-align: center;
+  text-decoration: none;
+}
