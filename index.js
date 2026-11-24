@@ -2,14 +2,15 @@ const message = document.querySelector(".message");
 const emailInput = document.querySelector("input");
 const button = document.querySelector("button");
 const listItems = document.querySelectorAll("ul li");
+const newsletter = document.querySelector(".newsletter");
 
 function showMessage(text) {
   message.textContent = text;
   message.hidden = false;
 }
 
-button.addEventListener("click", function (event) {
-  event.stopPropagation();
+newsletter.addEventListener("submit", function (event) {
+  event.preventDefault();
 
   const email = emailInput.value.trim();
 

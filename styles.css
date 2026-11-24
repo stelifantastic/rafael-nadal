@@ -20,7 +20,7 @@ body {
 
 img {
   display: block;
-margin: 30px auto 0;
+  margin: 30px auto 0;
   width: auto;
   height: min(45vw, 32vh);
   border-radius: 20px;
@@ -65,7 +65,7 @@ a {
 input {
   display: block;
   margin: 12px 0 0;
-  width: 160px;
+  width: 100%;
   box-sizing: border-box;
   padding: 4px 8px;
   border: 1px solid var(--text);
@@ -81,7 +81,8 @@ input {
 
 button {
   display: block;
-  width: 160px;
+  width: 100%;
+  white-space: nowrap;
   box-sizing: border-box;
   margin: 8px 0;
   padding: 5px 10px;
@@ -96,6 +97,9 @@ button {
 
 .newsletter {
   position: relative;
+  display: grid;
+  grid-template-columns: max-content;
+  margin: 0;
 }
 
 .message {
@@ -155,4 +159,3 @@ button {
   text-align: justify;
   text-align-last: justify;
 }
-
