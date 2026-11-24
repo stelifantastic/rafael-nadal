@@ -90,7 +90,7 @@ button {
   border-radius: var(--image);
   background: var(--text);
   color: var(--background);
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   font-family: var(--font);
 }
